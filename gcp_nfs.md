@@ -5,7 +5,7 @@ Define environment variables:
 export INSTANCE_NAME="shen-nfs1"
 export INSTANCE_TIER="STANDARD"
 export FILE_SHARE_NAME="shen_share1"
-export FILE_SHARE_CAPACITY="1TB"
+export FILE_SHARE_CAPACITY="4TB"
 export CLUSTER_ZONE="us-central1-b"
 ```
 
