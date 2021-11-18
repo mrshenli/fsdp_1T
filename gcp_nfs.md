@@ -2,9 +2,9 @@
 
 Define environment variables:
 ```bash
-export INSTANCE_NAME="pbelevich-nfs1"
+export INSTANCE_NAME="shen-nfs1"
 export INSTANCE_TIER="STANDARD"
-export FILE_SHARE_NAME="pbelevich_share1"
+export FILE_SHARE_NAME="shen_share1"
 export FILE_SHARE_CAPACITY="1TB"
 export CLUSTER_ZONE="us-central1-b"
 ```
