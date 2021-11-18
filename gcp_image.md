@@ -14,7 +14,7 @@ gcloud compute instances create ${IMAGE_INSTANCE} \
 	--machine-type a2-highgpu-1g \
 	--zone ${CLUSTER_ZONE} \
 	--maintenance-policy TERMINATE \
-	--boot-disk-size 30GB \
+	--boot-disk-size 200GB \
 	--restart-on-failure \
 	--image-family schedmd-slurm-20-11-4-hpc-centos-7 \
 	--image-project schedmd-slurm-public
