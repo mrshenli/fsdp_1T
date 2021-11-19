@@ -41,7 +41,7 @@ ssh to the cluster's login node:
 export CLUSTER_ZONE="us-central1-b"
 export CLUSTER_LOGIN_NODE=$(gcloud compute instances list \
     --zones ${CLUSTER_ZONE} \
-    --filter="name ~ pbelevich*.*login." \
+    --filter="name ~ shen*.*login." \
     --format="value(name)" | head -n1)
 gcloud compute ssh ${CLUSTER_LOGIN_NODE} \
     --zone $CLUSTER_ZONE
