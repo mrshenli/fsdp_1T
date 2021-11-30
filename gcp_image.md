@@ -2,7 +2,7 @@
 
 Define environment variables:
 ```bash
-export CLUSTER_ZONE="us-central1-b"
+export CLUSTER_ZONE="us-central1-f"
 export SLURM_IMAGE="shen-slurm-image"
 export IMAGE_INSTANCE="${SLURM_IMAGE}-instance"
 export PROJECT_NAME="pytorch-distributed"
